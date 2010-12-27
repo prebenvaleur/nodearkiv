@@ -1,4 +1,6 @@
 Nodearkiv::Application.routes.draw do
+  resources :locations
+
   resources :private_locations
 
   resources :boxes

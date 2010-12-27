@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101227202742) do
+ActiveRecord::Schema.define(:version => 20101227231329) do
 
   create_table "boxes", :force => true do |t|
     t.string   "label"
@@ -44,6 +44,12 @@ ActiveRecord::Schema.define(:version => 20101227202742) do
   create_table "green_binders", :force => true do |t|
     t.string   "title"
     t.integer  "location_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "locations", :force => true do |t|
+    t.string   "street"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

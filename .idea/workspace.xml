@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4417e997-588f-44e9-920a-75a1ef3c489b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/locations_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/location.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/locations/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/locations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/locations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/locations/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20101227231329_create_locations.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/locations.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/locations_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/locations_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/location_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/railsgenerate.cmd" afterPath="$PROJECT_DIR$/railsgenerate.cmd" />
     </list>
     <ignored path="nodearkiv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,10 +79,10 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="history.txt" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="history.txt" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/history.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="105" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.89341694">
+                <state line="37" column="68" selection-start="703" selection-end="703" vertical-scroll-proportion="1.9717869">
                   <folding />
                 </state>
               </provider>
@@ -157,10 +173,28 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="history.txt" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="history.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/history.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="43" selection-start="601" selection-end="601" vertical-scroll-proportion="1.412463">
+                <state line="9" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="private_location.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/private_location.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="railsgenerate.cmd" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/railsgenerate.cmd">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="51" selection-start="674" selection-end="720" vertical-scroll-proportion="0.40356082">
                   <folding />
                 </state>
               </provider>
@@ -468,6 +502,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: nodearkiv">
@@ -780,20 +815,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/railsgenerate.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="75" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/tune_in_compilations_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20101227202537_create_compilations.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
@@ -885,9 +906,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/private_location.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/railsgenerate.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="51" selection-start="674" selection-end="720" vertical-scroll-proportion="0.40356082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/history.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="43" selection-start="601" selection-end="601" vertical-scroll-proportion="1.412463">
+        <state line="37" column="68" selection-start="703" selection-end="703" vertical-scroll-proportion="1.9717869">
           <folding />
         </state>
       </provider>

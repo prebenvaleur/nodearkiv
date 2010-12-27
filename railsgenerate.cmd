@@ -6,6 +6,6 @@ call rails generate scaffold TuneCopy greenbinder_id:integer --parent=Tunerem ra
 call rails generate scaffold GreenBinder title:string location_id:integer
 call rails generate scaffold Casette label:string box_id:integer
 call rails generate scaffold Box label:string location_id:integer
-call rails generate scaffold Location street: string
+call rails generate scaffold Location street:string
 call rails generate scaffold PrivateLocation owner:string --parent=Location
 call rails generate scaffold Compilation title:string casette_id:integer
