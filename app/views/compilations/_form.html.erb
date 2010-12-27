@@ -1,0 +1,25 @@
+<%= form_for(@compilation) do |f| %>
+  <% if @compilation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@compilation.errors.count, "error") %> prohibited this compilation from being saved:</h2>
+
+      <ul>
+      <% @compilation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :casette_id %><br />
+    <%= f.text_field :casette_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

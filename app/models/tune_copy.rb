@@ -1,0 +1,2 @@
+class TuneCopy < Tune
+end

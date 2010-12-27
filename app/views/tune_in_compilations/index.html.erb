@@ -1,0 +1,23 @@
+<h1>Listing tune_in_compilations</h1>
+
+<table>
+  <tr>
+    <th>Compilation</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tune_in_compilations.each do |tune_in_compilation| %>
+  <tr>
+    <td><%= tune_in_compilation.compilation_id %></td>
+    <td><%= link_to 'Show', tune_in_compilation %></td>
+    <td><%= link_to 'Edit', edit_tune_in_compilation_path(tune_in_compilation) %></td>
+    <td><%= link_to 'Destroy', tune_in_compilation, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Tune in compilation', new_tune_in_compilation_path %>

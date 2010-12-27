@@ -1,0 +1,23 @@
+<h1>Listing tune_in_originals</h1>
+
+<table>
+  <tr>
+    <th>Casette</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tune_in_originals.each do |tune_in_original| %>
+  <tr>
+    <td><%= tune_in_original.casette_id %></td>
+    <td><%= link_to 'Show', tune_in_original %></td>
+    <td><%= link_to 'Edit', edit_tune_in_original_path(tune_in_original) %></td>
+    <td><%= link_to 'Destroy', tune_in_original, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Tune in original', new_tune_in_original_path %>

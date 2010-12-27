@@ -1,0 +1,2 @@
+class PrivateLocation < Location
+end

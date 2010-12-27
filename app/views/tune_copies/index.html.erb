@@ -1,0 +1,23 @@
+<h1>Listing tune_copies</h1>
+
+<table>
+  <tr>
+    <th>Greenbinder</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tune_copies.each do |tune_copy| %>
+  <tr>
+    <td><%= tune_copy.greenbinder_id %></td>
+    <td><%= link_to 'Show', tune_copy %></td>
+    <td><%= link_to 'Edit', edit_tune_copy_path(tune_copy) %></td>
+    <td><%= link_to 'Destroy', tune_copy, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Tune copy', new_tune_copy_path %>

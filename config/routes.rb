@@ -1,4 +1,24 @@
 Nodearkiv::Application.routes.draw do
+  resources :private_locations
+
+  resources :boxes
+
+  resources :casettes
+
+  resources :green_binders
+
+  resources :compilations
+
+  resources :tune_copies
+
+  resources :tune_in_originals
+
+  resources :tune_in_compilations
+
+  resources :tunes
+
+  resources :composers
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

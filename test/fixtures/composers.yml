@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  born_year: 1
+  deceased_year: 1
+
+two:
+  name: MyString
+  born_year: 1
+  deceased_year: 1

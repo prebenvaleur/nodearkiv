@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @compilation.title %>
+</p>
+
+<p>
+  <b>Casette:</b>
+  <%= @compilation.casette_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_compilation_path(@compilation) %> |
+<%= link_to 'Back', compilations_path %>

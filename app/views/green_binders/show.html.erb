@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @green_binder.title %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @green_binder.location_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_green_binder_path(@green_binder) %> |
+<%= link_to 'Back', green_binders_path %>

@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Label:</b>
+  <%= @casette.label %>
+</p>
+
+<p>
+  <b>Box:</b>
+  <%= @casette.box_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_casette_path(@casette) %> |
+<%= link_to 'Back', casettes_path %>

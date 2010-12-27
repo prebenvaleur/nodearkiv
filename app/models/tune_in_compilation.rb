@@ -1,0 +1,2 @@
+class TuneInCompilation < Tune
+end

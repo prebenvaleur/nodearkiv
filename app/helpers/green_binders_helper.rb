@@ -1,0 +1,2 @@
+module GreenBindersHelper
+end

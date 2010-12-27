@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @tune.title %>
+</p>
+
+<p>
+  <b>Composer:</b>
+  <%= @tune.composer_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_tune_path(@tune) %> |
+<%= link_to 'Back', tunes_path %>

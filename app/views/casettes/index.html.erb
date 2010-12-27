@@ -1,0 +1,25 @@
+<h1>Listing casettes</h1>
+
+<table>
+  <tr>
+    <th>Label</th>
+    <th>Box</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @casettes.each do |casette| %>
+  <tr>
+    <td><%= casette.label %></td>
+    <td><%= casette.box_id %></td>
+    <td><%= link_to 'Show', casette %></td>
+    <td><%= link_to 'Edit', edit_casette_path(casette) %></td>
+    <td><%= link_to 'Destroy', casette, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Casette', new_casette_path %>
